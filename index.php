@@ -15,7 +15,7 @@ if ($target === false || strpos($target, $homeDir) !== 0 || !is_file($target)) {
 }
 
 run_guard($requested);
-
+http_response_code(200);
 ob_start();
 include $target;
 $content = ob_get_clean();

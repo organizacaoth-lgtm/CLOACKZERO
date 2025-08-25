@@ -1,3 +1,7 @@
-body { font-family: Arial, sans-serif; margin: 20px; }
+body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
 table { border-collapse: collapse; }
 th, td { padding: 4px 8px; border: 1px solid #ccc; }
+label { display: block; margin: 8px 0; }
+.indent { margin-left: 20px; }
+input[type=text], input[type=password], input[type=time] { padding: 4px; }
+button { padding: 6px 12px; }
